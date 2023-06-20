@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700&display=swap");
+
+:root {
+  --dark-blue: #232c50;
+  --gray-blue: #1e1e26;
+  --gray-footer: #8c8c94;
+  --gray-placeholder: #a0a0a0;
+  --gray: #b3b2b7;
+  --ligth-gray: rgb(249, 249, 249);
+  --primary-lightblue: #3cddf3;
+  --primary-violet-rgba: rgba(139, 72, 191, 0.3);
+  --primary-violet: #8b48bf;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.header-top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10vw 10vw;
+}
+
+.header-nav,
+.header-contact {
+  display: none;
+}
+
+.banner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner img {
+  margin: 4vw 0 5vw;
+  width: 84%;
+}
+
+.info-banner {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 16vw 7.5vw 10vw;
+}
+
+.info-banner h1 {
+  color: var(--dark-blue);
+  font-size: 9.7vw;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.info-banner p {
+  font-size: 3.4vw;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 4.5vw 0;
+  text-align: right;
+}
+
+.info-banner button {
+  background-color: var(--primary-violet);
+  border-radius: 6vw;
+  border: none;
+  color: var(--ligth-gray);
+  font-size: 2.5vw;
+  font-weight: 500;
+  margin-top: 1.5vw;
+  padding: 2.9vw 9vw;
+}
+
+.section-pros {
+  background-color: var(--primary-lightblue);
+  color: var(--ligth-gray);
+  padding: 8vw 6vw;
+}
+
+.section-pros h2 {
+  font-size: 7vw;
+  font-weight: 700;
+}
+
+.section-pros p {
+  font-size: 3.5vw;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 11vw 0 3vw;
+  text-align: left;
+}
+
+.about-company {
+  margin: 15vw 0 17vw 8vw;
+  position: relative;
+}
+
+.about-company-title {
+  align-items: center;
+  display: flex;
+}
+
+.about-company span {
+  background-color: var(--primary-violet);
+  border-radius: 8.5vw;
+  color: var(--ligth-gray);
+  font-weight: 700;
+  padding: 2.5vw 5.5vw;
+  position: relative;
+  right: 4vw;
+}
+
+.about-company h3 {
+  background-color: var(--primary-violet-rgba);
+  color: #323851;
+  font-weight: 700;
+  left: 7vw;
+  padding: 2.5vw 0;
+  position: relative;
+  width: 100%;
+}
+
+.about-company p {
+  color: var(--gray);
+  line-height: 1.64;
+  margin: 2vw;
+  padding: 4vw;
+}
+
+.best-teams {
+  text-align: center;
+}
+
+.best-teams-box {
+  background: linear-gradient(white 0%, white 35%, green 0%, green 0%);
+  margin: 5vw;
+  padding: 3.9vw;
+}
+
+#box1,
+#box3 {
+  display: none;
+}
+
+.best-teams h2 {
+  color: var(--dark-blue);
+  font-size: 8.1vw;
+  font-weight: 700;
+}
+
+.best-teams img {
+  margin: 15vw 0 2vw;
+  width: 15vw;
+}
+
+.best-teams h3 {
+  color: var(--dark-blue);
+  font-weight: 700;
+  margin: 2vw 0 2.5vw;
+}
+
+.best-teams p {
+  color: var(--gray);
+  line-height: 1.66;
+}
+
+.best-teams button {
+  background-color: var(--primary-violet);
+  border-radius: 6vw;
+  border: none;
+  color: var(--ligth-gray);
+  font-size: 2.5vw;
+  font-weight: 500;
+  margin: 7vw 0 11vw;
+  padding: 2.9vw 11vw;
+}
+
+.best-year {
+  background-color: var(--primary-lightblue);
+  text-align: center;
+}
+
+.best-year h2 {
+  color: var(--ligth-gray);
+  font-size: 7.5vw;
+  font-weight: 700;
+  padding: 9vw 18vw 0;
+}
+
+.best-year button {
+  background-color: var(--dark-blue);
+  border-radius: 6vw;
+  border: none;
+  box-shadow: 0px 4px 8px 0px #00000040;
+  color: var(--ligth-gray);
+  font-size: 2.5vw;
+  font-weight: 500;
+  margin: 9vw;
+  padding: 2.9vw 11vw;
+}
+
+footer {
+  background-color: var(--gray-blue);
+  color: var(--ligth-gray);
+  padding: 9vw;
+  text-align: center;
+}
+
+footer input {
+  border-radius: 6vw;
+  border: none;
+  padding: 2vw;
+}
+
+.form-input {
+  font-size: 2.4vw;
+  margin-bottom: 9vw;
+  margin: 2vw 0;
+  padding: 2.9vw 1vw;
+  width: 67vw;
+}
+
+.form-button {
+  background-color: var(--primary-violet);
+  border-radius: 6vw;
+  color: var(--ligth-gray);
+  font-size: 2.5vw;
+  font-weight: 500;
+  margin-left: 1vw;
+  padding: 2.7vw 4.5vw;
+}
+
+footer ::placeholder {
+  color: var(--gray-placeholder);
+  font-size: 2.6vw;
+  padding-left: 2vw;
+}
+
+.footer-list {
+  color: var(--ligth-gray);
+  display: flex;
+  justify-content: space-around;
+  line-height: 2.2;
+  margin-bottom: 9.6vw;
+  text-align: left;
+}
+
+.footer-nav,
+.footer-nav2 {
+  font-weight: 400;
+  list-style: none;
+  padding: 0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9.9vw;
+}
+
+.social-media i {
+  color: var(--ligth-gray);
+  font-size: 4.3vw;
+  transition: 0.5s;
+}
+
+.social-media i:hover {
+  scale: 150%;
+}
+
+footer img {
+  margin-bottom: 9.9vw;
+}
+
+footer p {
+  color: var(--gray-footer);
+  font-size: 2.45vw;
+  margin-bottom: 1vw;
+}
