@@ -102,11 +102,6 @@
   position: relative;
 }
 
-.about-company-title {
-  align-items: center;
-  display: flex;
-}
-
 .about-company span {
   background-color: var(--primary-violet);
   border-radius: 8.5vw;
@@ -139,7 +134,7 @@
 }
 
 .best-teams-box {
-  background: linear-gradient(white 0%, white 35%, green 0%, green 0%);
+  background: linear-gradient(white 0%, white 35%, #fafafa 0%, #fafafa 0%);
   margin: 5vw;
   padding: 3.9vw;
 }
@@ -217,6 +212,7 @@ footer input {
   border-radius: 6vw;
   border: none;
   padding: 2vw;
+  margin-bottom: 9.6vw;
 }
 
 .form-input {
@@ -283,4 +279,270 @@ footer p {
   color: var(--gray-footer);
   font-size: 2.45vw;
   margin-bottom: 1vw;
+}
+
+
+/*////////////// Media///////////////*/
+
+
+@media screen and (min-width: 1440px) {
+  .header-top {
+    padding: 6vw 12vw;
+  }
+
+  .header-top .hamb {
+    display: none;
+  }
+
+  .header-nav,
+  .header-contact {
+    display: block;
+  }
+
+  .header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .header-nav li {
+    padding: 1vw;
+  }
+
+  .header-contact {
+    background-color: var(--primary-violet);
+    border-radius: 6vw;
+    border: none;
+    color: var(--ligth-gray);
+    font-size: 1vw;
+    font-weight: 500;
+    padding: 1vw 3vw;
+  }
+
+  .banner {
+    flex-direction: row;
+    padding: 0vw 12vw 2vw;
+  }
+
+  .banner img {
+    margin: 0;
+    flex-basis: 50%;
+  }
+
+  .info-banner {
+    align-items: end;
+    flex-basis: 50%;
+    margin: 6vw 0 6vw 3vw;
+    padding-left: 2vw;
+  }
+
+  .info-banner h1 {
+    font-size: 3.2vw;
+  }
+
+  .info-banner p {
+    font-size: 1.1vw;
+    padding: 3vw 0;
+  }
+
+  .info-banner button {
+    font-size: 1vw;
+    margin-top: 0;
+    padding: 1vw 2vw;
+  }
+
+  .section-pros {
+    align-items: center;
+    background-color: var(--primary-violet);
+    display: flex;
+    justify-content: space-between;
+    padding: 2.8vw 13vw;
+  }
+
+  .section-pros h2 {
+    flex-basis: 50%;
+    font-size: 2.4vw;
+    margin: 0 4vw;
+  }
+
+  .section-pros p {
+    flex-basis: 50%;
+    font-size: 1.1vw;
+    padding: 0vw 1.5vw;
+    text-align: left;
+  }
+
+  .about-company {
+    align-items: center;
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 9vw;
+    padding: 2vw 9vw 1vw;
+  }
+  
+  .about-company-title {
+    margin: 1vw 5vw;
+    width: 37%;
+  }
+  
+  .about-company span {
+    font-size: 0.9vw;
+    padding: 1vw 1.7vw;
+    right: 1.6vw;
+  }
+  
+  .about-company h3 {
+    background-color: transparent;
+    font-size: 1vw;
+    left: 0vw;
+    padding: 1.1vw 0;
+  }
+  
+  .about-company p {
+    font-size: 1.05vw;
+    left: 4vw;
+    margin: 0vw;
+    padding: 1vw 0.3vw;
+    position: relative;
+  }
+
+  .boxes {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4.5vw;
+  }
+
+  .best-teams-box {
+    background: linear-gradient(white 0%, white 23%, #fafafa 0%, #fafafa 0%);
+    margin: 0;
+    padding: 2vw;
+  }
+
+  #box1,
+  #box3 {
+    display: block;
+  }
+
+  .best-teams h2 {
+    font-size: 3vw;
+  }
+
+  .best-teams img {
+    margin: 0;
+    width: 7vw;
+  }
+
+  .best-teams h3 {
+    margin: 0.5vw 0 1.5vw;
+  }
+
+  .best-teams p {
+    font-size: 1vw;
+  }
+
+  .best-teams button {
+    font-size: 1vw;
+    margin: 0 0 9vw;
+    padding: 1vw 3.7vw;
+  }
+
+  .best-year {
+    align-items: center;
+    background-color: var(--primary-violet);
+    display: flex;
+    justify-content: center;
+  }
+
+  .best-year h2 {
+    font-size: 3vw;
+    padding: 5vw 8vw;
+    text-align: left;
+    width: 50%;
+  }
+
+  .best-year button {
+    background-color: var(--ligth-gray);
+    color: var(--primary-violet);
+    font-size: 1vw;
+    margin-left: 19vw;
+    padding: 1vw 3.5vw;
+  }
+
+  footer {
+    padding: 4.5vw 13vw 3.5vw;
+  }
+
+  .content-footer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  form {
+    display: flex;
+  }
+
+  footer input {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .form-input {
+    font-size: 0.8vw;
+    margin: 0;
+    padding: 1vw;
+    width: 14vw;
+  }
+
+  .form-button {
+    font-size: 1vw;
+    margin-left: 0.6vw;
+    padding: 1vw 1.7vw;
+  }
+
+  footer ::placeholder {
+    font-size: 1vw;
+    padding-left: 0.5vw;
+  }
+
+  .column-social {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .footer-list {
+    gap: 12vw;
+    line-height: 2.5;
+    margin-bottom: 0;
+  }
+
+  .footer-nav li,
+  .footer-nav2 li {
+    font-size: 1vw;
+    padding: 0;
+  }
+
+  .social-media {
+    margin-bottom: 0;
+  }
+
+  .social-media i {
+    font-size: 1.8vw;
+    padding-right: 1vw;
+  }
+
+  footer img {
+    margin-bottom: 5vw;
+    width: 65%;
+  }
+
+  footer p {
+    font-size: 0.8vw;
+    margin-bottom: 0;
+    text-align: end;
+  }
 }
