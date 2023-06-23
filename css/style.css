@@ -44,8 +44,8 @@
 }
 
 .banner img {
-  margin: 0 40px;
-  width: 90%;
+  margin: 30px 40px;
+  width: 85%;
 }
 
 .info-banner {
@@ -69,7 +69,7 @@
   font-size: 1.04rem;
   font-weight: 500;
   line-height: 26.01px;
-  margin: 20px 0;
+  margin: 22px 0;
   text-align: right;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .about-company {
-  margin: 62px 0 55px 38px;
+  margin: 62px 0 43px 38px;
   position: relative;
 }
 
@@ -152,15 +152,15 @@
 }
 
 .best-teams h2 {
-  color: var(--dark-blue);
+  color: #3F4868;
   font-size: 2.45rem;
   font-weight: 700;
   line-height: 61.41px;
 }
 
 .best-teams img {
-  margin: 54px 0 15px;
-  width: 16%;
+  margin: 54px 0 20px;
+  width: 17%;
 }
 
 .best-teams h3 {
@@ -171,7 +171,7 @@
 
 .best-teams p {
   color: var(--gray);
-  line-height: 25.06px;
+  line-height: 27.06px;
   padding: 0 22px;
 }
 
@@ -183,7 +183,7 @@
   font-size: 0.8rem;
   font-weight: 500;
   line-height: 19.26px;
-  margin-top: 45px;
+  margin-top: 60px;
   padding: 13px 50px;
 }
 
@@ -290,12 +290,17 @@ footer img {
 
 footer p {
   color: var(--gray-footer);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
 }
 
 /*////////////// Media Querie ///////////////*/
 
 @media screen and (min-width: 1440px) {
+  
+  .header-top {
+    margin-bottom: 20px;
+    padding: 70px 187px;
+  }
   header img {
     transition: 0.7s;
   }
@@ -320,8 +325,16 @@ footer p {
     list-style: none;
   }
 
+  .header-nav li {
+    transition: 0.7s;
+  }
+
+  .header-nav li:hover {
+    transform: scale(1.2);
+  }
+
   .header-nav a {
-    padding: 20px;
+    padding: 11px;
     text-decoration: none;
     transition: 0.7s;
   }
@@ -329,14 +342,6 @@ footer p {
   .header-nav a:hover {
     color: rgba(153, 102, 192, 0.4);
     transform: scale(0.7);
-  }
-
-  .header-nav li {
-    transition: 0.7s;
-  }
-
-  .header-nav li:hover {
-    transform: scale(1.2);
   }
 
   .header-contact {
@@ -396,7 +401,7 @@ footer p {
   .info-banner {
     align-items: end;
     flex-basis: 50%;
-    margin-left: 57px;
+    margin-left: 120px;
   }
 
   .info-banner h1 {
@@ -422,7 +427,7 @@ footer p {
 
   .section-pros h2 {
     flex-basis: 50%;
-    margin: 0 25px 0 60px;
+    margin: 0 65px 0 60px;
   }
 
   .section-pros p {
@@ -442,7 +447,7 @@ footer p {
   }
 
   .about-company-title {
-    margin: 20px 25px;
+    margin: 20px 0px;
     width: 44%;
   }
 
@@ -453,12 +458,12 @@ footer p {
 
   .about-company h3 {
     background-color: transparent;
-    left: 52px;
+    left: 69px;
     padding: 13px 0;
   }
 
   .about-company p {
-    left: 32px;
+    left: 51px;
     padding: 10px 90px;
     position: relative;
   }
@@ -513,7 +518,7 @@ footer p {
     display: flex;
     justify-content: space-around;
     margin-top: 150px;
-    padding: 25px 81px;
+    padding: 25px 0px;
   }
 
   .best-year h2 {
@@ -525,11 +530,11 @@ footer p {
   .best-year button {
     background-color: var(--ligth-gray);
     color: var(--primary-violet);
-    margin: 0;
+    margin: 0 120px 0 0;
   }
 
   footer {
-    padding: 60px 120px;
+    padding: 60px 187px;
   }
 
   .content-footer {
@@ -575,7 +580,7 @@ footer p {
   }
 
   .footer-list {
-    gap: 200px;
+    gap: 154px;
     line-height: 40px;
     margin-bottom: 0;
   }
